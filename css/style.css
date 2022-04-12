@@ -1,0 +1,139 @@
+html{
+  background: #373854;
+}
+body{
+  max-width: 80%;
+  margin: auto;
+  background: #ffffff;
+  padding: 2em 2em 2em 2em;
+  box-shadow: 0.5rem 0.5rem #703393, -0.5rem -0.5rem #c5037d;
+  color: #545454;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  align-content: center;
+  height: auto;
+}
+
+header {
+  color: #e6e8e5;
+  padding: 15px;
+  text-align: center;
+  background-color: #e86af0;
+  font-size: 3em;
+  font-weight: bold;
+  box-shadow: 0.5rem 0.5rem #493267, -0.5rem -0.5rem #9e379f;
+  margin-bottom:.5em;
+}
+
+#main-navbar{
+  overflow: hidden;
+}
+
+#navbar-container{
+   width: 100%;
+   float: left;
+   background-color: #9e379f;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   position: relative;
+   align-content: center;
+}
+
+#navbar-container ul{
+  margin: 2px;
+  padding: 2px;
+  float: left;
+  list-style-type: none;
+  position: relative;
+  left: 50%;
+  display: inline-block;
+}
+
+#navbar-container ul li{
+  float: left;
+  display: block;
+  position: relative;
+  right: 50%;
+}
+
+#navbar-container ul li a{
+  padding: 15px 17px;
+  text-decoration: none;
+  display: block;
+  color: #e6e8e5;
+  font-size: 20px;
+  text-align: left;
+}
+
+#navbar-container ul li a:hover {
+  background-color: #e86af0;
+  border-radius: 25px;
+  color: #493267;
+}
+
+#onpage {
+  background-color: #7bb3ff;
+  border-radius: 25px;
+  color: #493267;
+}
+
+h2 {
+  color: #493267;
+  font-size: 20px;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  font-weight: bold;
+}
+
+ol {
+  list-style-type: square;
+  list-style-position: inside
+}
+
+.section {
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+
+.first {
+  background-color: #dad6e0;
+  display: block;
+  padding: 5px;
+
+}
+
+.second {
+  background-color: #ebd7eb;
+  display: block;
+  padding: 5px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-style: oblique;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
