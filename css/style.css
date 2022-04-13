@@ -24,8 +24,13 @@ header {
   margin-bottom:.5em;
 }
 
+#map {
+  height: 500px;
+}
+
 #main-navbar{
   overflow: hidden;
+  padding-bottom: 5px;
 }
 
 #navbar-container{
