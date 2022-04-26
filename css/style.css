@@ -13,6 +13,27 @@ body{
   height: auto;
 }
 
+/*Media Queries*/
+@media screen and (max-width: 600px) {
+  body {
+    background: #ff5733;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  div.section.first {
+    background: #ffc300;
+  }
+
+  div.section.second {
+    background: #daf7a6;
+  }
+}
+
+
+
+/*Media Query 2*/
+
 header {
   color: #e6e8e5;
   padding: 15px;
